@@ -1,0 +1,9 @@
+services:
+- type: web
+  name: test
+  env: docker
+  plan: standard
+  disk:
+    name: test
+    mountPath: /var/www/html
+    sizeGB: 20
